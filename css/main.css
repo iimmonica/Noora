@@ -1,0 +1,14 @@
+@font-face {
+ font-family: 'Expansiva';
+ src: url('../fonts/Expansiva.eot');
+ src: local('Expansiva Regular'),
+              local('Expansiva'),
+              url('../fonts/Expansiva.woff') format('woff'),
+              url('../fonts/Expansiva.ttf') format('truetype'),
+              url('../fonts/Expansiva.svg#fontName') format('svg');
+} 
+html, body, *{
+	box-sizing: border-box;
+	border-collapse: collapse;
+	font-family:Expansiva,'Microsoft YaHei','Times New Roman',SimHei; 
+}
